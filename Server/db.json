@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "name": "Chuối Laba Lâm Đồng Trợ Giá Tận Vườn (1Kg)",
+      "qty": "1",
+      "price": "19000",
+      "total": "19000",
+      "id": "ihzZB4DYv44FuTqNZBO05"
+    }
+  ],
+  "users": [
+    {
+      "id": "5YsFNN42B14VYHhpDyizn",
+      "name": "Administrator",
+      "email": "admin@gmail.com",
+      "password": 123456
+    }
+  ]
+}

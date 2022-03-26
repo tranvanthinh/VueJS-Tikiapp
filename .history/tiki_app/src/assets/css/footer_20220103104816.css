@@ -1,0 +1,101 @@
+:root {
+    --textColor: #ffffff;
+    --bgHeader: #1a94ff;
+    --bgcontent: #131821;
+    --sizeText: .8rem;
+    --sizeColor: 1rem;
+    --box-shadow: 0 4.5rem 5.5rem rgba(0,0,0,0.1);
+    --box-shadowImg: 1px 3px 25px 10px rgb(0 0 0 / 25%);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.container {
+    padding: 15px 15px 5px 15px;
+    margin: 0px auto;
+    width: 100%;
+    max-width: 1270px;
+}
+
+/* footer */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.book {
+    width: 235px;
+}
+.book h2 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.book p.hotline {
+    color: rgb(128, 128, 137);
+    font-size: var(--sizeText);
+    margin-bottom: 15px;
+}
+.book p.hotline a {
+    font-weight: 500;
+    color: var(--bgcontent);
+}
+.book p.security {
+    margin-bottom: 8px;
+    color: rgb(128, 128, 137);
+    font-size: var(--sizeText);
+    font-weight: 400;
+}
+.book p.security a {
+    color: rgb(128, 128, 137);
+}
+.footer-content .small-text {
+    display: block;
+    margin-bottom: 8px;
+    color: rgb(128, 128, 137);
+    font-size: var(--sizeText);
+}
+.footer-content .small-text:hover, 
+.book p.security a:hover {
+    text-decoration: underline;
+}
+
+.book .book-title {
+    margin: 15px 0px;
+}
+.book p a.icon {
+    padding: 4px;
+}
+.flex {
+    display: flex;
+    width: 218px;
+    gap: 8px;
+}
+.flex img {
+    max-width: 100%;
+}
+.flex .dowload {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.flex .dowload a img {
+    max-width: 100%; 
+}
